@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    punto p(1,1);
-    punto clon(p);
+    punto p(1.2,1);
+    punto clon(2,1);
     punto* pp = &p;
     punto* punteroNuevo = new punto(p);
     cout << "Hello world!" << endl;
@@ -16,11 +16,11 @@ int main()
     cout << p.distancia( *punteroNuevo) << endl ;
     if (p == clon)
     {
-        cout << "son iguales";
+        cout << "son iguales" << endl;
     }
     else
     {
-        cout << "son distintos";
+        cout << "son distintos"<< endl;
     }
     return 0;
 }
