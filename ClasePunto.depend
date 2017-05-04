@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1492816136 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos i\practicos y ejercicios\clasepunto\punto.cpp
+	"punto.h"
+	<math.h>
+
+1492815996 c:\users\mariano\documents\mega\analisis y diseño de algoritmos i\practicos y ejercicios\clasepunto\punto.h
+
+1492815695 source:c:\users\mariano\documents\mega\analisis y diseño de algoritmos i\practicos y ejercicios\clasepunto\main.cpp
+	<iostream>
+	"punto.h"
+
