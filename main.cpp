@@ -7,10 +7,9 @@ int main()
 {
     punto p(1.2,1);
     punto clon(2,1);
-    punto* pp = &p;
-    punto* punteroNuevo = new punto(p);
+    punto* punteroNuevo = new punto(3,-1);
     cout << "Hello world!" << endl;
-    //p.trasladar(3, -2);
+    p.trasladar(3, -2);
     cout << p.coordx() << " " << p.coordy() << endl ;
     cout << clon.coordx() << " " << clon.coordy() << endl ;
     cout << p.distancia( *punteroNuevo) << endl ;
